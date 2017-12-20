@@ -1,0 +1,16 @@
+{
+  "lerna": "2.5.1",
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "npm",
+  "version": "independent",
+  "command": {
+    "init": {
+      "exact": true
+    },
+    "bootstrap": {
+      "hoist": true
+    }
+  }
+}
