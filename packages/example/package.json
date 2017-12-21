@@ -1,5 +1,5 @@
 {
-  "name": "@chrisblossom/example",
+  "name": "example",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -19,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@chrisblossom/eslint-config": "1.0.0",
+    "eslint-config-example": "1.0.0",
     "eslint": "4.13.1"
   }
 }
