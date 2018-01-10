@@ -2,6 +2,6 @@
 
 module.exports = {
     rules: {
-        semi: 'always',
+        semi: ['error', 'always'],
     }
 }

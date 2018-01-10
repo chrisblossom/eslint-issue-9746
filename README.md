@@ -1,14 +1,22 @@
 Steps:
 
-```
+```bash
 npm install
 lerna bootstrap
 
-cd packages/example
+cd packages/eslint-example
 eslint index.js
 
-cd packages/scoped-example
+cd packages/scoped-eslint-example
 eslint index.js
+
+
+# working
+cd packages/babel-example
+babel index.js
+
+cd packages/scoped-babel-example
+babel index.js
 ```
 
 

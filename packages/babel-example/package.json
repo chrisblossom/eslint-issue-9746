@@ -1,5 +1,5 @@
 {
-  "name": "example",
+  "name": "babel-example",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -12,14 +12,15 @@
     "node": ">=8.9.0",
     "npm": ">=5.5.1"
   },
-  "scripts": {
-    "lint": "eslint index.js"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "build": "babel index.js"
+  },
   "dependencies": {
-    "eslint-config-example": "1.0.0",
-    "eslint": "4.13.1"
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-preset-example": "1.0.0"
   }
 }
